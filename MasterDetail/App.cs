@@ -6,8 +6,9 @@ namespace MasterDetail
 	public class App
 	{
 		public static Page GetMainPage ()
-		{	
-			return new RootPage ();
+		{
+            //calls RootPage.cs
+            return new RootPage ();
 		}
 	}
 }

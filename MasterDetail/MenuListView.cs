@@ -9,6 +9,7 @@ namespace MasterDetail
 	{
 		public MenuListView ()
 		{
+            //gets list data from MenuListData.cs
 			List<MenuItem> data = new MenuListData ();
 
 			ItemsSource = data;
@@ -20,6 +21,7 @@ namespace MasterDetail
 			cell.SetBinding (ImageCell.ImageSourceProperty, "IconSource");
 
 			ItemTemplate = cell;
+            //which one is selected, for example the first one
 			SelectedItem = data [0];
 		}
 	}

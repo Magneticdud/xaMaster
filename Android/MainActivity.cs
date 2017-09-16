@@ -21,7 +21,8 @@ namespace MasterDetail.Android
 			base.OnCreate (bundle);
 
 			Xamarin.Forms.Forms.Init (this, bundle);
-
+            //calls App.cs
+            //which then calls RootPage.cs
 			SetPage (App.GetMainPage ());
 		}
 	}

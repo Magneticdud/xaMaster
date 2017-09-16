@@ -10,10 +10,11 @@ namespace MasterDetail
 
 		public MenuPage ()
 		{
+            //icon is the hamburger menu icon
 			Icon = "settings.png";
 			Title = "menu"; // The Title property must be set.
 			BackgroundColor = Color.FromHex ("333333");
-
+            //gets the list of the items
 			Menu = new MenuListView ();
 
 			var menuLabel = new ContentView {
