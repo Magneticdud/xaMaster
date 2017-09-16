@@ -13,7 +13,7 @@ namespace MasterDetail
 			menuPage.Menu.ItemSelected += (sender, e) => NavigateTo (e.SelectedItem as MenuItem);
 
 			Master = menuPage;
-			Detail = new NavigationPage (new ContractsPage ());
+			Detail = new NavigationPage (new LeadsPage ());
 		}
 
 		void NavigateTo (MenuItem menu)
