@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'MonacoRegular';
+    src: url('/web/20150320143047im_/http://www.syntaxismyui.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco/monaco-webfont.eot');
+    src: url('/web/20150320143047im_/http://www.syntaxismyui.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco/monaco-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20150320143047im_/http://www.syntaxismyui.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco/monaco-webfont.woff') format('woff'),
+         url('/web/20150320143047im_/http://www.syntaxismyui.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco/monaco-webfont.ttf') format('truetype'),
+         url('/web/20150320143047im_/http://www.syntaxismyui.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco/monaco-webfont.svg#MonacoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.crayon-font-monaco * {
+    font-family: Monaco, 'MonacoRegular', 'Courier New', monospace !important;
+}
+/*
+     FILE ARCHIVED ON 14:30:47 Mar 20, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:48:22 Sep 15, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

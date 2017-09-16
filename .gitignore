@@ -1,2 +1,6 @@
 
 \.DS_Store
+
+Android/obj/
+
+packages/
